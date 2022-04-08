@@ -1,0 +1,11 @@
+<?php
+    if(isset($_SESSION['felh']))
+    {
+        $felhasz=$_SESSION['felh'];
+    }
+    session_unset();
+    if(isset($felhasz))
+    {
+        $_SESSION['felh']=$felhasz;
+    }
+?>

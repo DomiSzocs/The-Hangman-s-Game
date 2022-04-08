@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url('hatter.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+.main-header{
+    text-align: center;
+    border: 2px solid black;
+    background-color: #c2ad91;
+}
+.main-header h1{
+    font-size: 2rem;
+    margin: 20px;
+}
+.main-header hr{
+    width: 100%;
+    margin: auto;
+    padding: 2px;
+    background: black;
+    border:none;
+}
+.main-header input{
+    width: 90%;
+    padding: 1rem;
+    margin: 20px 0px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 1.3rem;
+    background: transparent;
+    outline: none;
+}
+.main-header .button{
+    padding: .6rem;
+    font-size: 1.2rem;
+    border: 5px solid black;
+    border-radius: 30px;
+    background:#5c5955;
+    margin-bottom: 20px;
+    outline: none;
+}
